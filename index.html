@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Real Time Bus Tracker</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+    <link href="./styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="map"></div>
+    <div class="map-overlay top">
+      <fieldset>
+        <label for="route">
+          Bus Route
+          <input type="text" list="bus_routes" id="route" name="route" />
+        </label>
+        <datalist id="bus_routes"></datalist>
+        <button style="font-size: 2em;" id="showStops">
+          Show Stops
+        </button>
+        <div id="directionDiv">
+          <label>
+            Direction
+            <select name="direction" id="direction"></select>
+          </label>
+        </div>
+      </fieldset>
+    </div>
+    <script type="module" src="./mapanimation.js"></script>
+</body>
+</html>
