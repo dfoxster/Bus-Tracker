@@ -21,4 +21,4 @@ This project uses asynchronous Javascript functions to provide real time bus tra
 This Real-Tiime Bus Tracker is available under the MIT License.  See the LICENSE file for more info.
 <<<<<<< HEAD
 
-<a target="_blank" href="https://dfoxster.github.io/Bus-Tracker/site/index.html">View Demo</a>
+<a href="https://dfoxster.github.io/Bus-Tracker/site/index.html">View Demo</a>
